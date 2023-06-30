@@ -1,0 +1,6 @@
+name = input();
+surname = input();
+age = input();
+year_born = 2022 - int(age);
+age_x = str(year_born);
+print("Пользователь " + str(name) + " " + str(surname) + ", " + str(age_x) + "г.р. зарегистрирована.")
