@@ -1,0 +1,8 @@
+f_word = input();
+s_word = input();
+if (f_word == s_word):
+    print("1");
+elif (f_word == 'мясо') or ((f_word == "джем") and (s_word == "капуста")):
+    print("1");
+elif (s_word == "мясо") or ((f_word == "капуста") and (s_word == "джем")):
+    print("2");
