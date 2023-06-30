@@ -1,0 +1,6 @@
+a = input();
+b = input();
+if (a == "Avada Kedavra") and (b == "Fiendfyre"):
+    print("Добро пожаловать в Хогвартс!");
+else:
+    print("Магия опасна в твоих руках!");
